@@ -1,0 +1,17 @@
+ast = load("context_vs_throughput_ast.txt");
+st  = load("context_vs_throughput_st.txt");
+fifo = load("context_vs_throughput_fifo.txt");
+rr = load("context_vs_throughput_rr.txt");
+freq = [0;.1;.2;.3;.4;.5;.6;.7;.8;.9;1];
+plot(freq, fifo, freq, st, freq, ast, freq, rr);
+legend('FIFO', 'Shortest Task First', 'Approx STF', 'Round Robin');
+xlabel('Context Cost');
+ylabel('Response Time');
+title('Response Time');
+
+
+plot(qt, st, qt,rr);
+legend('Shortest Task First', 'Round Robin');
+xlabel('Quantum Time');
+ylabel( ' Response Time');
+title('Quantum Time vs. Response Time');

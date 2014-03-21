@@ -1,0 +1,63 @@
+# depslib dependency file v1.0
+1394150825 source:d:\school\cs 3100\newhw6\event.cpp
+	"System.h"
+
+1393633793 d:\school\cs 3100\newhw6\event.h
+	<memory>
+	<queue>
+	"Task.h"
+	"System.h"
+
+1394149451 d:\school\cs 3100\newhw6\task.h
+	<vector>
+	<iostream>
+	"Burst.h"
+
+1394138607 d:\school\cs 3100\newhw6\burst.h
+
+1394213083 source:d:\school\cs 3100\newhw6\main.cpp
+	<iostream>
+	<random>
+	<fstream>
+	"System.h"
+	"ReadySet.h"
+
+1394149573 source:d:\school\cs 3100\newhw6\readyset.cpp
+	"ReadySet.h"
+
+1394045644 d:\school\cs 3100\newhw6\readyset.h
+	"Task.h"
+	<memory>
+	<algorithm>
+	<vector>
+	<queue>
+
+1394213273 d:\school\cs 3100\newhw6\system.h
+	<queue>
+	<iostream>
+	<memory>
+	<random>
+	<iomanip>
+	<time.h>
+	<climits>
+	<windows.h>
+	"ReadySet.h"
+	"Timing.h"
+
+1394152885 source:d:\school\cs 3100\newhw6\system.cpp
+	<cassert>
+	"System.h"
+
+1393634353 source:d:\school\cs 3100\newhw6\task.cpp
+
+1393889237 d:\school\cs 3100\newhw6\timing.h
+	<vector>
+	<functional>
+	<algorithm>
+	<numeric>
+	<math.h>
+	<ctime>
+
+1389812491 source:d:\school\cs 3100\newhw6\timing.cpp
+	"Timing.h"
+
