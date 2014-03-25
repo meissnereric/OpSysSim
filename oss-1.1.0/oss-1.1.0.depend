@@ -1,0 +1,64 @@
+# depslib dependency file v1.0
+1394154425 source:d:\git\opsyssim\oss-1.1.0\event.cpp
+	"System.h"
+
+1395711059 d:\git\opsyssim\oss-1.1.0\system.h
+	<queue>
+	<iostream>
+	<memory>
+	<random>
+	<iomanip>
+	<time.h>
+	<climits>
+	<windows.h>
+	"MemoryScheduler.h"
+	"ReadySet.h"
+	"Timing.h"
+
+1395670862 d:\git\opsyssim\oss-1.1.0\readyset.h
+	"Task.h"
+	<memory>
+	<algorithm>
+	<vector>
+	<queue>
+
+1394153051 d:\git\opsyssim\oss-1.1.0\task.h
+	<vector>
+	<iostream>
+	"Burst.h"
+
+1395426429 d:\git\opsyssim\oss-1.1.0\burst.h
+
+1393892837 d:\git\opsyssim\oss-1.1.0\timing.h
+	<vector>
+	<functional>
+	<algorithm>
+	<numeric>
+	<math.h>
+	<ctime>
+
+1395781417 source:d:\git\opsyssim\oss-1.1.0\main.cpp
+	<iostream>
+	<random>
+	<fstream>
+	"System.h"
+	"ReadySet.h"
+
+1394153173 source:d:\git\opsyssim\oss-1.1.0\readyset.cpp
+	"ReadySet.h"
+
+1395781494 source:d:\git\opsyssim\oss-1.1.0\system.cpp
+	<cassert>
+	"System.h"
+
+1389816091 source:d:\git\opsyssim\oss-1.1.0\timing.cpp
+	"Timing.h"
+
+1395423958 source:d:\git\opsyssim\oss-1.1.0\memoryscheduler.cpp
+	"MemoryScheduler.h"
+
+1395779203 d:\git\opsyssim\oss-1.1.0\memoryscheduler.h
+	<vector>
+	<memory>
+	<algorithm>
+
